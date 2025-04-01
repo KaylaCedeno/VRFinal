@@ -9,3 +9,9 @@ An immersive archery game taking place in a medieval castle courtyard, allowing 
 - Interaction: Aiming and releasing arrows to hit moving or stationary targets 
 - Environment Tracking: Collision detection for arrows hitting targets or missing
 - End-point: Scoring a certain number of points to win the tournament
+
+# Authors
+
+- Kayla Cedeño
+- Aicha Gory
+- Ta'Nasia Coleman
