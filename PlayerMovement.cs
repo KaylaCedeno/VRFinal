@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
 
-    
+   
     void Update()
     {
 
@@ -53,7 +53,8 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(move * speed * Time.deltaTime);
 
         // if the jump button is pressed and the player is grounded..
-        if (Input.GetButtonDown("Jump") && isGrounded)
+       // if (Input.GetButtonDown("Jump") && isGrounded)
+       if ( OVRInput.Get(OVRInput.Button.One) && isGrounded)
         {
             // set velocity based on the jump height and gravity
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
